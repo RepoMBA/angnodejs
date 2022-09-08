@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 
 var corsOptions = {
-  origin: `${process.env.react_app_url}`,
+  origin: `*`,
 };
 
 app.use(cors(corsOptions));
