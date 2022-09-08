@@ -1,4 +1,3 @@
-const ipfsAPI = require("ipfs-api");
 const ipfsClient = require("ipfs-http-client");
 let multer = require("multer");
 let path = require("path");
